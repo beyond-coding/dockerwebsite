@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/openjdk:8-jdk
         environment:
-          PROJECT_NAME: /dockerwebsite
+          PROJECT_NAME: dockerwebsite
     working_directory: ~/trainingdocker
     steps:
     - checkout
